@@ -477,6 +477,8 @@ section#flex-wrap-section {
 
 /* align-content */
 section#align-content-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
@@ -484,44 +486,64 @@ section#align-content-section {
 
 .align-content-center-parent-container {
   /* place your code here */
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
+  align-content: center;
 }
 
 .align-content-space-between-parent-container {
   /* place your code here */
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
+  align-content: space-between;
+
 }
 
 .align-content-space-around-parent-container {
   /* place your code here */
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  height: 250px;
+  align-content: space-around;
 }
 
 .align-content-space-evenly-parent-container {
   /* place your code here */
+  display: flex;
+  height: 250px;
+  align-content: space-evenly;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-stretch-parent-container {
   /* place your code here */
+  display: flex;
+  height: 250px;
+  align-content: space-evenly;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-start-parent-container {
   /* place your code here */
+  display: flex;
+  align-content: flex-start;
+  height: 250px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-end-parent-container {
   /* place your code here */
+  display: flex;
+  align-content: flex-end;
+  height: 250px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -530,22 +552,31 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
+  display: flex;
+  justify-content: space-evenly;
 /* place your code here */
 }
 
 .gap-parent-container {
   /* display: flex; */
   flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  
 }
 
 .row-gap-parent-container {
   /* display: flex; */
   flex-wrap: wrap;
+  display: flex;
+  row-gap: 20px;
 }
 
 .column-gap-parent-container {
   /* place your code here */
   flex-wrap: wrap;
+  display: flex;
+  column-gap: 20px;
 }
 
 /* end gap */
