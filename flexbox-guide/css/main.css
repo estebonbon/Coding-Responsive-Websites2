@@ -691,10 +691,13 @@ section#flex-flow-section {
 
 /* flex section */
 section#flex-content-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .flex-row-parent-container {
+  display: flex;
   /* Add display: flex; to make this div a parent flex container */
 }
 
@@ -729,31 +732,44 @@ section#flex-content-section {
 
 /* order */
 section#order-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .order-parent-container {
+  display: flex;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
 .order-child-flex-item-1 {
+  display: flex;
+  order: 4;
   /* place your code here */
 }
 
 .order-child-flex-item-2 {
+  display: flex;
+  order: 5;
   /* place your code here */
 }
 
 .order-child-flex-item-3 {
+  display: flex;
+  order: 1;
   /* place your code here */
 }
 
 .order-child-flex-item-4 {
+  display: flex;
+  order: 2;
   /* place your code here */
 }
 
 .order-child-flex-item-5 {
+  display: flex;
+  order: 3;
   /* place your code here */
 }
 
@@ -761,35 +777,50 @@ section#order-section {
 
 /* align-self */
 section#align-self-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .align-self-parent-container {
+  display: flex;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
 .align-self-auto-child-flex-item {
+  display: flex;
+  align-self: auto;
   /* place your code here */
 }
 
 .align-self-flex-start-child-flex-item {
+  display: flex;
+  align-self: flex-start;
   /* place your code here */
 }
 
 .align-self-flex-end-child-flex-item {
+  display: flex;
+  align-self: flex-end;
   /* place your code here */
 }
 
 .align-self-center-child-flex-item {
+  display: flex;
+  align-self: center;
   /* place your code here */
 }
 
 .align-self-baseline-child-flex-item {
+  display: flex;
+  align-self: baseline;
   /* place your code here */
 }
 
 .align-self-stretch-child-flex-item {
+  display: flex;
+  align-self: stretch;
   /* place your code here */
 }
 
